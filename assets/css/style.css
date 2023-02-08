@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'cinzel';
+    src: url('../fonts/Cinzel/static/Cinzel-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('../fonts/Poppins/Poppins-Regular.ttf');
+}
+
+html {
+    font-size: 10px;
+}
+
+h1 {
+    font-family: 'cinzel';
+}
+
+p {
+    font-family: 'poppins';
+}
+
+/* border: #ccc. */
+/* color logo: #999. */
+/* color home: #fff. */
+/* color: #333 */
+
+/*================Choose your Trip==============================*/
+
+main header {
+    font-family: "Cinzel";
+}
+
+.Traveller {
+    text-align: left;
+    font-size: 2rem;
+    color: #999;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+}
+
+body header {
+    background-image: url('https://images.unsplash.com/photo-1486312699619-be057cfc0342?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+main header h1 {
+    text-align: center;
+    color: white;
+    font-family: 'cinzel';
+    font-size: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8em;
+}
+
+main article {
+    text-align: center;
+
+    display: block;
+    padding: 2rem 6rem;
+    margin: 4rem 4rem;
+}
+
+main article h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+main article p {
+    font-size: 2rem;
+
+}
+
+/*================berge==============================*/
+
+section div img {
+    margin-top: 1rem;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    padding: 1rem 2rem;
+}
+
+/*================2022 Tour dates==============================*/
+main article h2 {
+    font-size: 4rem;
+    padding: 2rem 1rem;
+}
+
+main article p {
+    text-align: left;
+    margin-top: 3rem;
+}
+
+section article p.sold {}
+
+.sold p::after {
+    color: red;
+    content: " - SOLD OUT"
+}
+
+#only::after {
+    color: red;
+    content: " - ONLY 4 SPOTS AVAILABE "
+}
+
+.sold .ava::after {
+    color: green;
+    content: " - AVAILABE"
+}
+
+/*================Footer a ==============================*/
+footer {
+    font-size: 4rem;
+    border-top: 1px solid grey;
+    text-align: center;
+    margin: 2rem;
+}
+
+footer a {
+    margin-top: 4rem;
+    display: block;
+}
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
